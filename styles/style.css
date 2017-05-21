@@ -1,0 +1,149 @@
+*{
+	box-sizing: border-box;
+}
+html {
+    font-size: 10px; 
+    font-family: 'Open Sans', sans-serif;
+   
+}
+body{
+	
+	max-width: 960px;
+	margin: 0 auto;
+	background-color: lightgray;
+}
+p, li{
+	font-size: 1.6rem;
+}
+h1{
+	font-size: 4rem;
+	text-align: center;
+	line-height: 1.6;
+	margin: 0;
+	text-transform: uppercase;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+}
+
+h2{
+	font-size: 1.8rem;
+}
+
+ header {
+
+    padding: 0px;
+		border-bottom: solid green;
+		background: url(../images/pomar.png) no-repeat 100% center; 
+		background-size: contain;
+ }
+
+header img {
+		margin: 0px;
+		padding: 0;
+		float: right;
+		width: 6.4rem;
+}
+
+nav{
+	clear: both;
+	margin: 0;
+}
+nav ul{
+	 margin: 0 10px;
+	 padding: 0;
+	 width: 100%;
+	 display: inline;
+}
+
+nav ul li{
+  display: inline-block;
+  margin-right: 0;
+  width: 10%;
+  font-size: 2em;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+}
+nav  a{
+	display: inline-block;
+  width: 100%;
+  outline: none;
+  text-decoration: none;
+  
+  margin-right: 0.5%;
+  text-align: center;
+  line-height: 2;
+  color: black;
+}
+
+ nav li:last-child a {
+  margin-right: 0;
+}
+
+
+
+nav a:hover {     
+  color: green;
+}
+
+nav a:active {
+  color: navy;
+}
+
+ footer {
+    padding: 10px 0;
+		border-top: solid green;
+ }
+
+ footer ul{
+	 margin: 0 auto;
+	 padding: 0;
+	 width: 100%; 
+	 display: flex;
+ }
+footer ul li{
+  display: inline-block;
+  font-size: 1.6rem;
+  font-family: 'Roboto', sans-serif;
+	line-height: 2;
+	padding-left: 30px;
+	padding-right: 10px;
+}
+
+footer ul li:nth-child(1)
+{
+	background: url('../images/skype.png') no-repeat left center;
+	background-size: 24px 24px;
+}
+footer ul li:nth-child(2)
+{
+	background: url('../images/mail.png') no-repeat left center;
+	background-size: 24px 24px;
+}
+footer ul li:nth-child(3)
+{
+	background: url('../images/LinkedIn.png') no-repeat left center;
+	background-size: 28px 21px;
+}
+
+footer ul li:nth-child(4)
+{
+	background: url('../images/phone.png') no-repeat left center;
+	background-size: 24px 24px;
+}
+footer ul li:nth-child(5)
+{
+	background: url('../images/pdficon.png') no-repeat left center;
+	background-size: 24px 24px;
+}
+footer  a{
+  outline: none;
+  text-decoration: none;
+	display: inline-block;
+	
+  color: black;
+} 
+footer a img{
+	margin: 0 auto;
+	padding: 0;
+}
+
